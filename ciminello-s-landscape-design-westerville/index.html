@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Ciminello's Landscape Design | Landscaper in Westerville, OH</title>
+<meta name="description" content="Ciminello's Landscape Design, a landscaper on Lazelle Road in Westerville, Ohio. Landscape design, planting, patios, walkways and outdoor spaces. Call (614) 885-3779.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --forest:#1f3a2b;
+    --forest-deep:#142a1e;
+    --moss:#4f7a3a;
+    --sage:#a9c19a;
+    --sage-light:#e6eedf;
+    --stone:#f6f3ec;
+    --clay:#b5652f;
+    --clay-dark:#8f4c20;
+    --ink:#1b211d;
+    --muted:#55615a;
+    --radius:18px;
+    --shadow:0 14px 40px rgba(20,42,30,.12);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:Inter,system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--stone);line-height:1.6;font-size:17px}
+  img,svg{display:block}
+  a{color:inherit}
+  h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.12;margin:0 0 .5em;color:var(--forest-deep)}
+  h1{font-size:clamp(2.3rem,6vw,4rem);font-weight:700;letter-spacing:-.01em}
+  h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:700}
+  h3{font-size:1.25rem;font-weight:500}
+  p{margin:0 0 1em}
+  .wrap{width:min(1140px,100% - 2.5rem);margin-inline:auto}
+  .eyebrow{display:inline-flex;align-items:center;gap:.5rem;font-size:.8rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--moss);margin-bottom:1rem}
+  .eyebrow::before{content:"";width:28px;height:2px;background:currentColor}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:1rem 1.6rem;border-radius:999px;font-weight:600;text-decoration:none;font-size:1rem;transition:transform .15s ease,background .15s ease,box-shadow .15s ease;border:2px solid transparent;min-height:52px}
+  .btn:hover{transform:translateY(-2px)}
+  .btn:focus-visible,a:focus-visible{outline:3px solid var(--clay);outline-offset:3px}
+  .btn-primary{background:var(--clay);color:#fff;box-shadow:0 8px 22px rgba(181,101,47,.35)}
+  .btn-primary:hover{background:var(--clay-dark)}
+  .btn-ghost{border-color:rgba(255,255,255,.55);color:#fff}
+  .btn-ghost:hover{background:rgba(255,255,255,.1)}
+  .btn-dark{background:var(--forest);color:#fff}
+  .btn-dark:hover{background:var(--forest-deep)}
+  .btn svg{width:20px;height:20px;flex:none}
+
+  /* Header */
+  header.site{position:sticky;top:0;z-index:50;background:rgba(246,243,236,.94);backdrop-filter:blur(8px);border-bottom:1px solid rgba(31,58,43,.1)}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.85rem 0}
+  .brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+  .brand-mark{width:42px;height:42px;border-radius:12px;background:var(--forest);display:grid;place-items:center}
+  .brand-mark svg{width:24px;height:24px}
+  .brand-name{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:1.1rem;line-height:1.1;color:var(--forest-deep)}
+  .brand-name small{display:block;font-family:Inter,sans-serif;font-weight:500;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .nav-links{display:none;gap:1.6rem;list-style:none;margin:0;padding:0}
+  .nav-links a{text-decoration:none;font-weight:500;font-size:.95rem;color:var(--forest)}
+  .nav-links a:hover{color:var(--clay)}
+  .nav-call{padding:.65rem 1.1rem;min-height:44px;font-size:.95rem}
+  .nav-call .label-long{display:none}
+  @media (min-width:900px){.nav-links{display:flex}.nav-call .label-long{display:inline}.nav-call .label-short{display:none}}
+
+  /* Hero */
+  .hero{position:relative;background:linear-gradient(160deg,var(--forest-deep) 0%,var(--forest) 55%,#2e5238 100%);color:#fff;overflow:hidden}
+  .hero::after{content:"";position:absolute;inset:auto 0 -1px 0;height:90px;background:var(--stone);clip-path:path("M0 60 C 240 10, 480 100, 760 50 S 1260 20, 1600 70 L1600 100 L0 100 Z");}
+  .hero-grid{position:relative;z-index:1;display:grid;gap:3rem;padding:4.5rem 0 7.5rem;align-items:center}
+  @media (min-width:960px){.hero-grid{grid-template-columns:1.1fr .9fr;padding:6rem 0 9rem}}
+  .hero h1{color:#fff}
+  .hero h1 em{font-style:italic;color:var(--sage)}
+  .hero .eyebrow{color:var(--sage)}
+  .hero-lede{font-size:1.15rem;color:#dbe6d4;max-width:34rem;margin-bottom:2rem}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:.9rem}
+  .hero-meta{display:flex;flex-wrap:wrap;gap:1.4rem;margin-top:2.2rem;font-size:.95rem;color:#cfdcc7}
+  .hero-meta span{display:flex;align-items:center;gap:.5rem}
+  .hero-meta svg{width:18px;height:18px;color:var(--sage)}
+  .hero-art{position:relative;aspect-ratio:4/5;max-width:440px;width:100%;justify-self:center}
+  .hero-art .ph{position:absolute;inset:0;border-radius:200px 200px var(--radius) var(--radius)}
+  .leaf-deco{position:absolute;opacity:.12;pointer-events:none}
+
+  /* Placeholder photo */
+  .ph{background:
+      repeating-linear-gradient(45deg,rgba(255,255,255,.05) 0 12px,transparent 12px 24px),
+      linear-gradient(180deg,#5d8a47,#3b6331);
+      display:flex;align-items:flex-end;justify-content:flex-start;padding:1.1rem;color:#fff;border:1px solid rgba(255,255,255,.18);overflow:hidden;position:relative}
+  .ph-label{background:rgba(20,42,30,.78);border-radius:10px;padding:.5rem .8rem;font-size:.8rem;line-height:1.35;display:flex;gap:.5rem;align-items:center;max-width:90%}
+  .ph-label svg{width:16px;height:16px;flex:none}
+  .ph.light{background:repeating-linear-gradient(45deg,rgba(31,58,43,.05) 0 12px,transparent 12px 24px),linear-gradient(180deg,var(--sage-light),#cfdcc4);border-color:rgba(31,58,43,.12)}
+
+  section{padding:5rem 0}
+  .section-head{max-width:640px;margin-bottom:3rem}
+  .section-head p{color:var(--muted);font-size:1.08rem}
+
+  /* Services */
+  .services-grid{display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+  .card{background:#fff;border-radius:var(--radius);padding:1.9rem;box-shadow:0 1px 0 rgba(31,58,43,.06);border:1px solid rgba(31,58,43,.08);transition:transform .2s ease,box-shadow .2s ease}
+  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .icon{width:54px;height:54px;border-radius:16px;background:var(--sage-light);color:var(--forest);display:grid;place-items:center;margin-bottom:1.2rem}
+  .icon svg{width:28px;height:28px}
+  .card p{color:var(--muted);margin:0;font-size:.98rem}
+  .services-note{margin-top:2rem;color:var(--muted);font-size:.95rem}
+
+  /* Process / Why */
+  .why{background:var(--forest);color:#e7efe1;position:relative;overflow:hidden}
+  .why h2,.why h3{color:#fff}
+  .why .eyebrow{color:var(--sage)}
+  .why .section-head p{color:#c8d6bf}
+  .why-grid{display:grid;gap:2.5rem;align-items:center}
+  @media (min-width:960px){.why-grid{grid-template-columns:.95fr 1.05fr}}
+  .why-list{display:grid;gap:1.4rem;list-style:none;margin:0;padding:0}
+  .why-list li{display:grid;grid-template-columns:auto 1fr;gap:1.1rem;align-items:start;padding:1.4rem;border-radius:var(--radius);background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1)}
+  .why-list .num{font-family:Fraunces,serif;font-size:1.6rem;color:var(--sage);line-height:1;width:2.2rem}
+  .why-list h3{margin-bottom:.3rem}
+  .why-list p{margin:0;color:#c8d6bf;font-size:.98rem}
+  .why-photos{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+  .why-photos .ph{border-radius:var(--radius);min-height:220px}
+  .why-photos .ph.tall{grid-row:span 2;min-height:460px;border-radius:160px 160px var(--radius) var(--radius)}
+
+  /* Area + hours */
+  .info-grid{display:grid;gap:1.5rem}
+  @media (min-width:900px){.info-grid{grid-template-columns:1.2fr .8fr}}
+  .panel{background:#fff;border-radius:var(--radius);padding:2.2rem;border:1px solid rgba(31,58,43,.08)}
+  .area-map{margin-top:1.6rem;border-radius:14px;aspect-ratio:16/8;background:
+     radial-gradient(circle at 50% 50%,rgba(181,101,47,.25) 0 14%,transparent 15%),
+     radial-gradient(circle at 50% 50%,rgba(79,122,58,.18) 0 38%,transparent 39%),
+     linear-gradient(135deg,var(--sage-light),#dbe6d1);
+     position:relative;overflow:hidden;border:1px solid rgba(31,58,43,.1)}
+  .area-map::before{content:"";position:absolute;inset:0;background:
+     linear-gradient(90deg,transparent 49.6%,rgba(31,58,43,.12) 49.6% 50.4%,transparent 50.4%),
+     linear-gradient(0deg,transparent 49.4%,rgba(31,58,43,.12) 49.4% 50.6%,transparent 50.6%),
+     linear-gradient(30deg,transparent 60%,rgba(31,58,43,.08) 60% 61%,transparent 61%)}
+  .pin{position:absolute;left:50%;top:50%;transform:translate(-50%,-100%);color:var(--clay)}
+  .pin svg{width:40px;height:40px;filter:drop-shadow(0 4px 6px rgba(0,0,0,.2))}
+  .area-tag{position:absolute;left:50%;top:50%;transform:translate(-50%,10px);background:var(--forest);color:#fff;font-size:.8rem;font-weight:600;padding:.35rem .75rem;border-radius:999px;white-space:nowrap}
+  .hours-table{width:100%;border-collapse:collapse;margin-top:.5rem}
+  .hours-table th,.hours-table td{text-align:left;padding:.75rem 0;border-bottom:1px solid rgba(31,58,43,.1);font-size:1rem}
+  .hours-table th{font-weight:500;color:var(--muted)}
+  .hours-table td{text-align:right;font-weight:600}
+  .hours-table tr.closed td{color:var(--muted);font-weight:500}
+  .hours-table tr.today th,.hours-table tr.today td{color:var(--forest-deep)}
+  .hours-table tr.today th::after{content:" · today";color:var(--clay);font-weight:600;font-size:.85rem}
+  .status{display:inline-flex;align-items:center;gap:.5rem;font-weight:600;font-size:.9rem;padding:.4rem .85rem;border-radius:999px;background:var(--sage-light);color:var(--forest);margin-bottom:.6rem}
+  .status::before{content:"";width:9px;height:9px;border-radius:50%;background:currentColor}
+  .status.closed{background:#f3e3d8;color:var(--clay-dark)}
+
+  /* Contact */
+  .contact{background:linear-gradient(180deg,var(--stone),var(--sage-light))}
+  .contact-grid{display:grid;gap:1.5rem}
+  @media (min-width:900px){.contact-grid{grid-template-columns:1fr 1fr}}
+  .contact-cta{background:var(--forest-deep);color:#e7efe1;border-radius:var(--radius);padding:2.6rem;position:relative;overflow:hidden}
+  .contact-cta h2{color:#fff}
+  .contact-cta p{color:#c8d6bf}
+  .big-phone{display:inline-block;font-family:Fraunces,serif;font-size:clamp(1.9rem,5vw,2.6rem);font-weight:700;color:#fff;text-decoration:none;margin:.4rem 0 1.4rem}
+  .big-phone:hover{color:var(--sage)}
+  .contact-list{list-style:none;margin:0;padding:0;display:grid;gap:1.3rem}
+  .contact-list li{display:grid;grid-template-columns:auto 1fr;gap:1rem;align-items:start}
+  .contact-list .icon{margin:0;width:46px;height:46px;border-radius:12px}
+  .contact-list .icon svg{width:22px;height:22px}
+  .contact-list strong{display:block;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .contact-list a{color:var(--forest-deep);font-weight:600;text-decoration-color:var(--sage);text-underline-offset:3px;word-break:break-word}
+  .contact-list a:hover{color:var(--clay)}
+  .cta-actions{display:flex;flex-wrap:wrap;gap:.8rem}
+
+  /* Footer */
+  footer{background:var(--forest-deep);color:#b9c9b0;padding:3rem 0 2rem;font-size:.95rem}
+  .foot-grid{display:grid;gap:2rem}
+  @media (min-width:800px){.foot-grid{grid-template-columns:1.4fr 1fr 1fr}}
+  footer h3{color:#fff;font-size:1.05rem;margin-bottom:.8rem}
+  footer a{color:#dbe6d4;text-decoration:none}
+  footer a:hover{color:#fff;text-decoration:underline}
+  footer ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+  .foot-bottom{margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.1);font-size:.85rem;color:#93a689;display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;justify-content:space-between}
+
+  /* Mobile call bar */
+  .call-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;gap:.6rem;padding:.7rem;background:rgba(20,42,30,.96);box-shadow:0 -6px 20px rgba(0,0,0,.18)}
+  .call-bar .btn{flex:1;padding:.8rem;min-height:48px;font-size:.95rem}
+  body{padding-bottom:76px}
+  @media (min-width:900px){.call-bar{display:none}body{padding-bottom:0}}
+
+  @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div id="concept-banner" style="background:#111;color:#fff;font:14px/1.4 system-ui,sans-serif;padding:10px 16px;text-align:center">Website concept for Ciminello&#39;s Landscape Design. This is a preview, not the official website of Ciminello&#39;s Landscape Design.</div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 19c0-8 5-14 15-15-1 10-7 15-15 15Zm0 0 8-8"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 8h3l2-2h6l2 2h3v11H4Z"/><circle cx="12" cy="13" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+  </defs>
+</svg>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Ciminello's Landscape Design home">
+      <span class="brand-mark" aria-hidden="true"><svg style="color:#a9c19a"><use href="#i-leaf"/></svg></span>
+      <span class="brand-name">Ciminello's<small>Landscape Design</small></span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#approach">Our approach</a></li>
+        <li><a href="#area">Area &amp; hours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary nav-call" href="tel:+16148853779">
+      <svg aria-hidden="true"><use href="#i-phone"/></svg>
+      <span class="label-long">(614) 885-3779</span><span class="label-short">Call</span>
+    </a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <svg class="leaf-deco" style="width:420px;height:420px;right:-120px;top:-80px;color:#fff" aria-hidden="true"><use href="#i-leaf"/></svg>
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Landscaper · Westerville, Ohio</span>
+        <h1 id="hero-title">An outdoor space that feels <em>designed</em>, not just planted.</h1>
+        <p class="hero-lede">Ciminello's Landscape Design helps Westerville-area homeowners plan and build yards, gardens and outdoor living spaces they're proud to come home to.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:+16148853779">
+            <svg aria-hidden="true"><use href="#i-phone"/></svg> Call (614) 885-3779
+          </a>
+          <a class="btn btn-ghost" href="#contact">
+            Request a quote <svg aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span><svg aria-hidden="true"><use href="#i-pin"/></svg>567 Lazelle Road, Westerville</span>
+          <span><svg aria-hidden="true"><use href="#i-clock"/></svg>Mon–Fri, 8 AM – 4 PM</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="ph" role="img" aria-label="Photo placeholder: a finished landscape project">
+          <span class="ph-label"><svg aria-hidden="true"><use href="#i-camera"/></svg>Photo: a finished front-yard landscape by Ciminello's</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">What we do</span>
+        <h2 id="services-title">Landscaping, from first sketch to finished yard</h2>
+        <p>Every property is different. These are the kinds of projects a landscape design company typically takes on. Call to talk through what you have in mind.</p>
+      </div>
+      <div class="services-grid">
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 20h16M6 20V9l6-5 6 5v11M9 14h6M12 11v6"/></svg></div>
+          <h3>Landscape design</h3>
+          <p>Planning a layout that fits your home, your yard and the way you want to use it, so every piece works together.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8m0 0c-4 0-6-3-6-7 4 0 6 3 6 7Zm0-2c0-4 2-7 6-7 0 4-2 7-6 7ZM7 21h10"/></svg></div>
+          <h3>Planting &amp; garden beds</h3>
+          <p>Trees, shrubs, perennials and seasonal color, arranged into beds and borders that give your property structure.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M3 7h8v5H3zM13 7h8v5h-8zM3 14h5v5H3zM10 14h11v5H10z"/></svg></div>
+          <h3>Patios &amp; walkways</h3>
+          <p>Hardscape features like patios, paths and steps that connect your outdoor spaces and make them easy to enjoy.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M3 20h18M4 20v-4h16v4M5 16v-4h14v4M7 12V8h10v4"/></svg></div>
+          <h3>Walls &amp; edging</h3>
+          <p>Retaining walls, raised beds and clean edging to shape slopes, define spaces and keep everything tidy.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 20c2-3 4-3 6 0 2-3 4-3 6 0 2-3 4-3 6 0M6 16V9M10 16V6M14 16V8M18 16v-6"/></svg></div>
+          <h3>Lawns &amp; groundcover</h3>
+          <p>Establishing healthy turf or low-maintenance groundcover as part of a balanced overall design.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3v2M5.6 5.6 7 7M3 12h2m14 0h2M17 7l1.4-1.4M8 15a4 4 0 1 1 8 0c0 1.5-1 2.3-1.5 3h-5C9 17.3 8 16.5 8 15Zm2 6h4"/></svg></div>
+          <h3>Outdoor living spaces</h3>
+          <p>Bringing it all together into a backyard you'll actually spend time in, for gathering, relaxing and entertaining.</p>
+        </article>
+      </div>
+      <p class="services-note">Not sure whether your project is a fit? Give us a call at <a href="tel:+16148853779">(614) 885-3779</a> and ask.</p>
+    </div>
+  </section>
+
+  <section id="approach" class="why" aria-labelledby="why-title">
+    <div class="wrap why-grid">
+      <div>
+        <div class="section-head" style="margin-bottom:2rem">
+          <span class="eyebrow">Why Ciminello's</span>
+          <h2 id="why-title">Design is in our name, and in how we work</h2>
+          <p>A good landscape starts with a plan. Here's what you can expect when you call.</p>
+        </div>
+        <ul class="why-list">
+          <li><span class="num">01</span><div><h3>A design-led approach</h3><p>We think about how your whole property fits together, not just one bed or one patio at a time.</p></div></li>
+          <li><span class="num">02</span><div><h3>Right here in Westerville</h3><p>Our office is on Lazelle Road, so we're a local call, not a far-off franchise.</p></div></li>
+          <li><span class="num">03</span><div><h3>Easy to reach</h3><p>Call during weekday business hours and talk with someone directly, or send an email any time.</p></div></li>
+          <li><span class="num">04</span><div><h3>One team, start to finish</h3><p>From the first conversation about your ideas through to the finished project.</p></div></li>
+        </ul>
+      </div>
+      <div class="why-photos">
+        <div class="ph tall" role="img" aria-label="Photo placeholder: a backyard patio and planting project">
+          <span class="ph-label"><svg aria-hidden="true"><use href="#i-camera"/></svg>Photo: backyard patio project</span>
+        </div>
+        <div class="ph" role="img" aria-label="Photo placeholder: garden bed detail">
+          <span class="ph-label"><svg aria-hidden="true"><use href="#i-camera"/></svg>Photo: planting detail</span>
+        </div>
+        <div class="ph" role="img" aria-label="Photo placeholder: walkway or stone wall">
+          <span class="ph-label"><svg aria-hidden="true"><use href="#i-camera"/></svg>Photo: walkway or wall</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="area" aria-labelledby="area-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Service area &amp; hours</span>
+        <h2 id="area-title">Based in Westerville, working across the area</h2>
+      </div>
+      <div class="info-grid">
+        <div class="panel">
+          <h3>Where we work</h3>
+          <p style="color:var(--muted)">We're located at 567 Lazelle Road in Westerville, Ohio, and work with homeowners in Westerville and nearby central Ohio communities. If you're not sure whether we cover your neighborhood, just call and ask.</p>
+          <div class="area-map" role="img" aria-label="Illustration of the service area centered on Westerville, Ohio">
+            <span class="pin" aria-hidden="true"><svg><use href="#i-pin"/></svg></span>
+            <span class="area-tag">Westerville, OH</span>
+          </div>
+          <p style="margin:1.2rem 0 0"><a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&amp;query=Ciminello's%20Landscape%20Design%20567%20Lazelle%20Road%2C%20Westerville%2C%20OH%2043081-9595" target="_blank" rel="noopener">
+            <svg aria-hidden="true"><use href="#i-pin"/></svg> View on Google Maps</a></p>
+        </div>
+        <div class="panel">
+          <h3>Office hours</h3>
+          <div id="open-status" class="status" hidden></div>
+          <table class="hours-table" aria-label="Opening hours">
+            <tbody>
+              <tr data-day="1"><th scope="row">Monday</th><td>8:00 AM – 4:00 PM</td></tr>
+              <tr data-day="2"><th scope="row">Tuesday</th><td>8:00 AM – 4:00 PM</td></tr>
+              <tr data-day="3"><th scope="row">Wednesday</th><td>8:00 AM – 4:00 PM</td></tr>
+              <tr data-day="4"><th scope="row">Thursday</th><td>8:00 AM – 4:00 PM</td></tr>
+              <tr data-day="5"><th scope="row">Friday</th><td>8:00 AM – 4:00 PM</td></tr>
+              <tr data-day="6" class="closed"><th scope="row">Saturday</th><td>Closed</td></tr>
+              <tr data-day="0" class="closed"><th scope="row">Sunday</th><td>Closed</td></tr>
+            </tbody>
+          </table>
+          <p style="color:var(--muted);font-size:.92rem;margin:1.2rem 0 0">Outside office hours? Email <a href="mailto:ciminellos@ciminellos.com">ciminellos@ciminellos.com</a> and we'll get back to you on the next business day.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div class="contact-cta">
+        <svg class="leaf-deco" style="width:300px;height:300px;right:-80px;bottom:-90px;color:#fff" aria-hidden="true"><use href="#i-leaf"/></svg>
+        <span class="eyebrow" style="color:var(--sage)">Let's talk about your yard</span>
+        <h2 id="contact-title">Ready to start planning?</h2>
+        <p>Tell us a little about your property and what you'd like to change. The quickest way to get started is a phone call.</p>
+        <a class="big-phone" href="tel:+16148853779">(614) 885-3779</a>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="tel:+16148853779"><svg aria-hidden="true"><use href="#i-phone"/></svg> Tap to call</a>
+          <a class="btn btn-ghost" href="mailto:ciminellos@ciminellos.com?subject=Quote%20request%20-%20landscaping%20project&amp;body=Hi%20Ciminello's%2C%0A%0AMy%20name%3A%0AProperty%20address%3A%0ABest%20phone%20number%3A%0AWhat%20I'd%20like%20done%3A%0A"><svg aria-hidden="true"><use href="#i-mail"/></svg> Email for a quote</a>
+        </div>
+      </div>
+      <div class="panel">
+        <h3 style="margin-bottom:1.4rem">Contact details</h3>
+        <ul class="contact-list">
+          <li><span class="icon" aria-hidden="true"><svg><use href="#i-phone"/></svg></span><div><strong>Phone</strong><a href="tel:+16148853779">+1 (614) 885-3779</a></div></li>
+          <li><span class="icon" aria-hidden="true"><svg><use href="#i-mail"/></svg></span><div><strong>Email</strong><a href="mailto:ciminellos@ciminellos.com">ciminellos@ciminellos.com</a></div></li>
+          <li><span class="icon" aria-hidden="true"><svg><use href="#i-pin"/></svg></span><div><strong>Address</strong>567 Lazelle Road<br>Westerville, OH 43081-9595<br><a href="https://www.google.com/maps/search/?api=1&amp;query=Ciminello's%20Landscape%20Design%20567%20Lazelle%20Road%2C%20Westerville%2C%20OH%2043081-9595" target="_blank" rel="noopener">Get directions on Google Maps</a></div></li>
+          <li><span class="icon" aria-hidden="true"><svg><use href="#i-clock"/></svg></span><div><strong>Hours</strong>Monday – Friday, 8:00 AM – 4:00 PM<br>Saturday &amp; Sunday, closed</div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top" style="margin-bottom:1rem">
+          <span class="brand-mark" aria-hidden="true" style="background:#2e5238"><svg style="color:#a9c19a"><use href="#i-leaf"/></svg></span>
+          <span class="brand-name" style="color:#fff">Ciminello's<small style="color:#93a689">Landscape Design</small></span>
+        </a>
+        <p style="max-width:22rem">Landscape design and installation for homes in Westerville, Ohio and the surrounding area.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approach">Our approach</a></li>
+          <li><a href="#area">Service area &amp; hours</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Get in touch</h3>
+        <ul>
+          <li><a href="tel:+16148853779">(614) 885-3779</a></li>
+          <li><a href="mailto:ciminellos@ciminellos.com">ciminellos@ciminellos.com</a></li>
+          <li>567 Lazelle Road, Westerville, OH 43081-9595</li>
+          <li>Mon–Fri, 8 AM – 4 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span id="year">2025</span> Ciminello's Landscape Design. All rights reserved.</span>
+      <span>Website concept preview</span>
+    </div>
+  </div>
+</footer>
+
+<div class="call-bar" role="region" aria-label="Quick contact">
+  <a class="btn btn-primary" href="tel:+16148853779"><svg aria-hidden="true"><use href="#i-phone"/></svg> Call now</a>
+  <a class="btn btn-ghost" href="#contact">Request a quote</a>
+</div>
+
+<script>
+  (function(){
+    document.getElementById('year').textContent = new Date().getFullYear();
+    try{
+      var parts = new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',hour:'numeric',minute:'numeric',hour12:false}).formatToParts(new Date());
+      var get = function(t){var p=parts.find(function(x){return x.type===t});return p?p.value:null;};
+      var days = {Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6};
+      var day = days[get('weekday')];
+      var mins = (parseInt(get('hour'),10)%24)*60 + parseInt(get('minute'),10);
+      var row = document.querySelector('.hours-table tr[data-day="'+day+'"]');
+      if(row) row.classList.add('today');
+      var open = day>=1 && day<=5 && mins>=480 && mins<960;
+      var el = document.getElementById('open-status');
+      el.textContent = open ? 'Open now · until 4:00 PM' : 'Closed now · email us any time';
+      if(!open) el.classList.add('closed');
+      el.hidden = false;
+    }catch(e){}
+  })();
+</script>
+</body>
+</html>
